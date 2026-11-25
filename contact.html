@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="SaloneTech Hub: digital skills and web services for Sierra Leone.">
+<title>Contact | SaloneTech Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+<a class="logo" href="index.html">Salone<span>Tech</span> Hub</a>
+<button class="icon" id="menuBtn" aria-label="Menu" aria-expanded="false">☰</button>
+<nav id="nav" aria-label="Main navigation">
+<a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="estimator.html">Estimator</a><a href="team.html">Team</a><a href="contact.html" class="active" aria-current="page">Contact</a><button class="icon" id="themeBtn" aria-label="Toggle theme">🌓</button>
+</nav></div></header>
+
+<main>
+<section class="view" id="contact">
+<h1>Contact us</h1>
+<form id="form" novalidate class="card" style="max-width:600px">
+<label for="n">Full name</label><input id="n" autocomplete="name"><div class="err" id="en"></div>
+<label for="e">Email</label><input id="e" type="email" autocomplete="email"><div class="err" id="ee"></div>
+<label for="p">Phone (optional)</label><input id="p" type="tel" placeholder="+232 76 000000"><div class="err" id="ep"></div>
+<label for="m">Message</label><textarea id="m" rows="5"></textarea><div class="err" id="em"></div>
+<button class="btn" type="submit" style="margin-top:.8rem">Send message</button>
+<div id="done"></div></form>
+</section>
+</main>
+<footer>© 2026 SaloneTech Hub · Limkokwing University DCOMP 204 Final Project</footer>
+<script src="script.js"></script>
+</body>
+</html>
