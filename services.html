@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="SaloneTech Hub: digital skills and web services for Sierra Leone.">
+<title>Services | SaloneTech Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+<a class="logo" href="index.html">Salone<span>Tech</span> Hub</a>
+<button class="icon" id="menuBtn" aria-label="Menu" aria-expanded="false">☰</button>
+<nav id="nav" aria-label="Main navigation">
+<a href="index.html">Home</a><a href="about.html">About</a><a href="services.html" class="active" aria-current="page">Services</a><a href="estimator.html">Estimator</a><a href="team.html">Team</a><a href="contact.html">Contact</a><button class="icon" id="themeBtn" aria-label="Toggle theme">🌓</button>
+</nav></div></header>
+
+<main>
+<section class="view" id="services">
+<h1>Our services</h1>
+<input id="search" type="search" placeholder="Search services…" aria-label="Search services">
+<div class="chips" id="chips"><button class="chip on" data-f="all">All</button><button class="chip" data-f="design">Design</button><button class="chip" data-f="dev">Development</button><button class="chip" data-f="training">Training</button></div>
+<div class="grid" id="svcGrid"></div>
+</section>
+</main>
+<footer>© 2026 SaloneTech Hub · Limkokwing University DCOMP 204 Final Project</footer>
+<script src="script.js"></script>
+</body>
+</html>
